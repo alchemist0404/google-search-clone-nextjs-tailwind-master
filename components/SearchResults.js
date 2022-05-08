@@ -28,7 +28,14 @@ const SearchResults = ({ results }) => {
               </a>
             </div>
             <p className="line-clamp-2">{result.snippet}</p>
-            
+            {/*result.pagemap.cse_image?
+              result.pagemap.cse_image.length &&
+                  <image
+                    src={result.pagemap.cse_image[0].src}
+                    width={400}
+                    height={300}
+                  />
+            :''*/}
           </div>
         );
       })}
