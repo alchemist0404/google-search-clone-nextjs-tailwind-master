@@ -10,7 +10,6 @@ const SearchResults = ({ results }) => {
       </p>
 
       {results.items?.map((result) => {
-        // console.log(result.pagemap.cse_image)
         return (
           <div key={result.link} className="max-w-xl mb-8">
             <div className="group">
